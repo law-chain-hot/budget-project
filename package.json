@@ -1,11 +1,24 @@
 {
-  "name": "starter",
+  "name": "qianhao",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
   "author": "qianhao",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/law-chain-hot/buget-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/law-chain-hot/buget-project/issues"
+  },
+  "homepage": "https://github.com/law-chain-hot/buget-project#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
 }
